@@ -1,0 +1,68 @@
+[
+    {
+        "name": "RelayEntryGenerated",
+        "type": "event",
+        "inputs": [
+            {
+                "name": "requestId",
+                "internalType": "uint256",
+                "indexed": false,
+                "type": "uint256"
+            },
+            {
+                "name": "entry",
+                "internalType": "uint256",
+                "indexed": false,
+                "type": "uint256"
+            }
+        ],
+        "anonymous": false
+    },
+    {
+        "constant": true,
+        "name": "entryFeeEstimate",
+        "outputs": [
+            {
+                "name": "",
+                "internalType": "uint256",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "payable": false,
+        "type": "function",
+        "inputs": [
+            {
+                "name": "callbackGas",
+                "internalType": "uint256",
+                "type": "uint256"
+            }
+        ]
+    },
+    {
+        "constant": false,
+        "name": "requestRelayEntry",
+        "outputs": [
+            {
+                "name": "",
+                "internalType": "uint256",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "payable",
+        "payable": true,
+        "type": "function",
+        "inputs": [
+            {
+                "name": "callbackContract",
+                "internalType": "address",
+                "type": "address"
+            },
+            {
+                "name": "callbackGas",
+                "internalType": "uint256",
+                "type": "uint256"
+            }
+        ]
+    }
+]

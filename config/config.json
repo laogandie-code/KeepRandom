@@ -1,0 +1,11 @@
+{
+    "defaultWeb3Provider": "https://mainnet.infura.io/v3/8facbab2998b411ea0cef95ae90b66f1",
+    "main": {
+        "Random": "0x6c04499B595efdc28CdbEd3f9ed2E83d7dCCC717",
+        "KeepRandom": "0xd17F0af06ed6ee3eAA65f74f649F78B1Ca07E749"
+    },
+    "ropsten": {
+        "Random": "0x6c04499B595efdc28CdbEd3f9ed2E83d7dCCC717",
+        "KeepRandom": "0xd17F0af06ed6ee3eAA65f74f649F78B1Ca07E749"
+    }
+}

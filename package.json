@@ -1,0 +1,18 @@
+{
+  "name": "keep-random",
+  "version": "1.0.1",
+  "description": "Random service by Keep Network.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "keep",
+    "random"
+  ],
+  "author": "Laogandie",
+  "license": "ISC",
+  "dependencies": {
+    "web3": "^1.0.0"
+  }
+}
