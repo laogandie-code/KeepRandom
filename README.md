@@ -12,7 +12,7 @@ Based on the feature of Keep Random Beacon, we built Keep.Random for you.  You c
 
 ## How does it work?
 
-![How does it work (1)](http://keeprandom.top/img/flow.jpg){:width="200px"}
+![How does it work (1)](http://keeprandom.top/img/flow.png)
 
 keep.random consists of two parts: function `sendTx()`, and `random contract`.
 
@@ -20,7 +20,7 @@ For all dApps that need to invoke random values, you first need to import the pa
 
 ## Specialty
 
-Based on Ethereum blockchain and Keep Network, our tools have the following advantages:
+Based on Ethereum blockchain and Keep Network, our tool have the following advantages:
 
 - Transparent
 - Decentralized
