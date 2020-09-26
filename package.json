@@ -1,5 +1,5 @@
 {
-  "name": "keep-random",
+  "name": "keep.random",
   "version": "1.0.1",
   "description": "Random service by Keep Network.",
   "main": "lib/index.js",
@@ -10,7 +10,7 @@
     "keep",
     "random"
   ],
-  "author": "Laogandie",
+  "author": "laogandie",
   "license": "ISC",
   "dependencies": {
     "web3": "^1.0.0"
