@@ -12,7 +12,7 @@ Based on the feature of Keep Random Beacon, we built Keep.Random for you.  You c
 
 ## How does it work?
 
-![How does it work (1)](http://keeprandom.top/img/flow.png)
+<img src="http://keeprandom.top/img/flow.png" width="500px" />
 
 keep.random consists of two parts: function `sendTx()`, and `random contract`.
 
