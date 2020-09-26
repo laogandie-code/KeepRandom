@@ -1,4 +1,4 @@
-# keep.random:
+# keep.random
 
 ### A powerful tool to provide true randomness powered by Keep Network
 
@@ -12,9 +12,9 @@ Based on the feature of Keep Random Beacon, we built Keep.Random for you.  You c
 
 ## How does it work?
 
-![How does it work (1)](http://keeprandom.top/img/flow.jpg)
+![How does it work (1)](http://keeprandom.top/img/flow.jpg){:width="200px"}
 
-keep.random consists of two parts: function `sendTx()`, and `random contrac`t.
+keep.random consists of two parts: function `sendTx()`, and `random contract`.
 
 For all dApps that need to invoke random values, you first need to import the package `keep.random`. When dApp needs to call a random value, all it has to do is call function `sendTx()`  in keep.random to send a transaction to the random beacon. At this time, the random beacon will return a random value to our random contract. When the random contract gets the random value, keep.random will automatically fetch the random value from the random contract, and then return to dApp. The reason for our design is that the user cannot call the random value directly via the random beacon, and the random value of the random beacon can only be returned to another smart contract, rather than directly to the user. So we packaged the process of calling random values from the random Beacon, and simplify it into this powerful tool where the user only needs to send a transaction to get the result without going through the complicated process.
 
