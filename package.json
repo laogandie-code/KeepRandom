@@ -1,6 +1,6 @@
 {
   "name": "keep.random",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Random service by Keep Network.",
   "main": "lib/index.js",
   "scripts": {

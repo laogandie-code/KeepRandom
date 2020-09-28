@@ -33,7 +33,7 @@ We made all of those into an NPM package. So the only thing you have to do is im
 1. Install the client
 
 ```
-npm install keep-random
+npm install keep.random
 
 ```
 
